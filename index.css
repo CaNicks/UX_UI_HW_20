@@ -1,9 +1,9 @@
 
 .jumbotron {
-    background-image: url(images/);
+    background-color: #80A3B7;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
     height: calc(100vh - 25px);
     display: flex;
     align-items: center;
