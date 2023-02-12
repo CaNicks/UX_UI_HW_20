@@ -20,9 +20,11 @@
 
   .display-3 {
     align-items: center;
-    padding-left: 800px;
-    padding-right: 800px;
+    padding-top: 40px;
+    padding-left: 900px;
+    padding-right: 900px;
     padding-bottom: 50px;
+    background-color: aquamarine;
   }
 
   #Conclusion {
