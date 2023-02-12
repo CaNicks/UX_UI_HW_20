@@ -10,6 +10,7 @@
     <body>
 
     <!--Navbar for Site-->
+    <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Nick Caltrider</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +34,17 @@
               </ul>
             </div>
           </nav>
-
+        </section>
  
     
       <!--Navbar for Case Study-->
+      <section>
       <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
           <a class="nav-link active" href="#">1. Buisness Description</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">2. Problem Statement</a>
+          <a class="nav-link" href="#">2. Breakdown</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">3. Reaserch</a>
@@ -51,11 +53,17 @@
           <a class="nav-link" href="#">4. Ideation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">5. Concusion</a>
+          <a class="nav-link" href="#">5. Design</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">5. Conclusion</a>
         </li>
       </ul>
-          
+    </section>
+
+
     <!--Jumbotron for Header-->
+    <section>
     <div class="jumbotron">
         <div class="jumboCopy">
         <h1 class="display-4">A Little Help</h1>
@@ -65,11 +73,12 @@
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
       </div>
-      
+    </section>
 
 
     <!--Card for Reaserch-->
 
+    <section>
     <div class="card-group">
       <div class="card">
         <div class="card-body">
@@ -109,16 +118,37 @@
               Time Management </p>
           </div>
         </div>
+      </section>
 
-    <!--Jumbotron for Problem Statement-->
-      <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </div>
-      
+       <!--Media Heading for Prototype Section-->
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+   </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img class="d-block w-100" src="..." alt="First slide">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="..." alt="Second slide">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="..." alt="Third slide">
+     </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+</section>
 
     <!--Reaserch Header-->  
    
@@ -129,15 +159,6 @@
     <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card">
-      <img src="images/Frame 8 1.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Competitor Analysis</h5>
-        <p class="card-text">To get a better idea of how other services and companies assists older members of society, we completed a competitor analysis. This biggest discovery was that all the competitors would only come out to assist if certain criteria such as minimum amount of tasks, set time, or pay by task was meet. This caused many of A Little Helps members to lose out due to the high cost and requirements</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
       <img src="images/Homepage 1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Initial Reaserch</h5>
@@ -145,7 +166,7 @@
       </div>
     </div>
   </div>
-  <div class="col mb-4">
+  <div class="col mb-4" id="UserFlow">
     <div class="card">
       <img src="images/Capture 1.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -163,13 +184,22 @@
       </div>
     </div>
   </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="images/Frame 8 1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Competitor Analysis</h5>
+        <p class="card-text">To get a better idea of how other services and companies assists older members of society, we completed a competitor analysis. This biggest discovery was that all the competitors would only come out to assist if certain criteria such as minimum amount of tasks, set time, or pay by task was meet. This caused many of A Little Helps members to lose out due to the high cost and requirements</p>
+      </div>
+    </div>
+  </div>
 
- <!--Reaserch Header-->  
+ <!--Ideation Header-->  
    
  <h1 class="display-3">Ideation</h1>
 
     <!--Prototype Ideations-->
-
+<section>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col mb-4">
         <div class="card">
@@ -208,48 +238,67 @@
         </div>
       </div>
     </div>
+  </section>
 
-     <!--Media Heading for Prototype Section-->
+    <!--Design Header-->  
+   
+ <h1 class="display-3">Design</h1>
 
-     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="..." alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Third slide">
+
+    <!--Design-->
+
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/A Little Help Homepage (4) 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Iterations</h5>
+            <p class="card-text">Throughout the prototyping process, the team wanted to keep the design as simple as possible, there were a few reason behind this decisions, The first being if they decided to use the prototype we made with a third party, or even make themselves we didn’t want it to be some thing that would required a full time developer to make. The second was the accessibility, since the site is targeted towards older members of society we didn’t want to have anything flashy or to difficult to navigate </p>
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+      <div class="col mb-6">
+        <div class="card">
+          <img src="images/UI-Style-Tile-Template 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Style Guide</h5>
+            <p class="card-text">To keep accessibility as a main focus, we chose to keep all the colors as either Complimentary or Analogous to not clash. For the text we wanted wide shaped letter without any fancy curves or groves to keep legibility high.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card">
+          <img src="images/Donation Button 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donation Button</h5>
+            <p class="card-text">During the design process, the donation button that resided at the ned of the application for volunteers was a big point of contention for the team and the stakeholders. They were very skeptical to remove it despite the multiple user tests that gave remarks saying that it felt weird or inappropriate to ask for money before you even volunteered. This lead to having a few discussion with the stakeholders and after some back and forth agreed it could be changed.  </p>
+          </div>
+        </div>
+      </div>
+</section>
 
 
+ <!--Conclusion Header-->  
+   
+ <h1 class="display-3" id="Conclusion">Conclusion</h1>
+
+ <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Stakeholder Review</h5>
+    <p class="card-text">After completing the High Fidelity, we met with the Stakeholders for a second time to get their opinion on our work. The response was quite positive, they thought the minimized application made the process so much more seamless without compromising the information they were getting. While the homepage they though really gave a better understanding of what their mission was, as this was a big issues they saw was users couldn’t figure out what they did as a non profit. Overall they really liked the prototype and were willing to compromise on the donation button at the end of the application.  Finally they offered to have us completely re-do the entire website if that was something we would be interested in. We are now currently in talks with them about the next steps.</p>
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Reflection & Next Steps</h5>
+    <p class="card-text">After meeting with the stakeholders we got back together to de brief on the meeting. We discussed how we still had some work to do on a few things but mainly how we worked well as a team, and were able to complete the project without any internal issues. </p>
+  </div>
+</div>
      <!--Footer-->
 
-     <div class="footer">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Travel</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Destinations</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Map</a></li>
-        </ul>
-      </footer>
-    </div>
+     <h1 class="display-4" id="Conclusion">Like what you see?</h1>
+     <h1 class="display-4" id="Conclusion">Reach Out!</h1>
 
     </body>
 </html>

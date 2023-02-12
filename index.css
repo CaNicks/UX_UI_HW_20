@@ -17,3 +17,14 @@
     color: white;
     text-align: center;
   }
+
+  .display-3 {
+    align-items: center;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-bottom: 50px;
+  }
+
+  #Conclusion {
+
+  }
