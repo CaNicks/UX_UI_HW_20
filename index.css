@@ -28,5 +28,10 @@
   }
 
   #Conclusion {
-
+    align-items: center;
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
+  
